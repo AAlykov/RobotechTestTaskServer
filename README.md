@@ -1,6 +1,6 @@
 # RobotechTestTaskServer
 
-## Сборка проекта на Linux
+## Сборка и запуск проекта на Linux
 
 1. Установить зависимости
 Убедитесь, что все необходимые инструменты и библиотеки установлены:
@@ -30,7 +30,12 @@ make
 ```
 3.Также проект можно собрать с помощью Qt Creator через основной cmake-файл.
 
-## Сборка проекта на Windows
+4. Запуск 
+```bash
+bin/RobotechTestTaskServer 
+```
+
+## Сборка и запуск проекта на Windows
 
 1. Конфигурация и сборка
 Откройте Qt Command Prompt (если используете MinGW) или откройте терминал Developer Command Prompt for VS (если используете MSVC).
@@ -63,8 +68,11 @@ mingw32-make
 ```bash
 cmake --build . --config Release
 ```
-
 5. Также проект можно собрать с помощью Qt Creator через основной cmake-файл.
 
+6. Запуск 
+```bash
+bin/RobotechTestTaskServer.exe
+```
 ![server](https://github.com/user-attachments/assets/2e88874a-c600-49f0-a6d7-7b63e7375a1d)
 
