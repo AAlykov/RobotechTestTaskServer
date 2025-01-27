@@ -10,6 +10,7 @@ sudo apt install cmake build-essential qtbase5-dev libqt5widgets5 qtdeclarative5
 ```
 
 2. Сборка проекта
+
 2.1. Зайдите в каталог скаченного проекта. Создайте папку для сборки (рекомендуется использовать отдельный каталог для сборки):
 ```bash
 mkdir build
