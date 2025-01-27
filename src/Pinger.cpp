@@ -22,7 +22,7 @@ void Pinger::startPing(const QString& address, const quint16 count, const quint1
     arguments << "-n" << QString::number(count) << "-l" << QString::number(size) << address;
     process->start("ping", arguments);
 #else
-    arguments << "-c" << "4" << address;
+    arguments << "-c" << QString::number(count) << "-s" << QString::number(size) << address;
     process->start("/bin/ping", arguments);
 #endif
 
