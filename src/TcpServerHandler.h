@@ -5,7 +5,6 @@
 #include <QTcpSocket>
 #include <QDebug>
 
-
 class TcpServerHandler : public QObject
 {
     Q_OBJECT
@@ -36,5 +35,5 @@ private:
     QVector<QTcpSocket*> _clients;
     QString _serviceMessage;
 
-    quint16 _port;
+    quint16 _port = 0;
 };

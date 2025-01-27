@@ -5,7 +5,6 @@
 
 #include <QObject>
 #include <QDateTime>
-//#include <QStringListModel>
 
 class TransferDataHandler : public QObject
 {

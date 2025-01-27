@@ -5,7 +5,6 @@
 #include <QObject>
 #include <QProcess>
 #include <QTextCodec>
-#include <QTextStream>
 
 class Pinger : public QObject
 {
